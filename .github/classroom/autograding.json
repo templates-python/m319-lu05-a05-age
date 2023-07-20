@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "OK",
+      "setup": "sudo -H pip3 install -r requirements.txt",
+      "run": "pytest -k \"test_ok\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "impossible",
+      "setup": "sudo -H pip3 install -r requirements.txt",
+      "run": "pytest -k \"test_impossible\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
