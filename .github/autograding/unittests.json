@@ -1,13 +1,13 @@
 [
   {
-    "name": "OK",
-    "function": "OK",
+    "name": "test_ok",
+    "function": "test_ok",
     "timeout": 10,
     "points": 1
   },
   {
-    "name": "impossible",
-    "function": "impossible",
+    "name": "test_impossible",
+    "function": "test_impossible",
     "timeout": 10,
     "points": 1
   }
